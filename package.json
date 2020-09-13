@@ -1,19 +1,22 @@
 {
-  "name": "blazeplate-vuejs-vuex-generator",
+  "name": "codotype-vuejs-vuex-onsenui-generator",
   "version": "0.1.0",
-  "description": "A blazeplate generator for Vue.js, Vue Router, &amp; Vuex",
+  "description": "A codotype generator for Vue.js, Vue Router, &amp; Vuex",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blazeplate/blazeplate-vuejs-vuex-generator.git"
+    "url": "git+https://github.com/codotype/codotype-vuejs-vuex-onsenui-generator.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blazeplate/blazeplate-vuejs-vuex-generator/issues"
+    "url": "https://github.com/codotype/codotype-vuejs-vuex-onsenui-generator/issues"
   },
-  "homepage": "https://github.com/blazeplate/blazeplate-vuejs-vuex-generator#readme"
+  "homepage": "https://github.com/codotype/codotype-vuejs-vuex-onsenui-generator#readme",
+  "dependencies": {
+    "codotype-generator": "git+https://github.com/codotype/codotype-generator.git"
+  }
 }
